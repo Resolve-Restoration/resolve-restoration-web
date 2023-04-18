@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://resolverestoration.ca/"
+baseURL = "https://crazyc4t.github.io/resolve-restoration/"
 title = "Resolve Restoration"
 theme = "meghna-hugo"
 # post pagination
