@@ -1,0 +1,20 @@
+################################# funfacts ##################################
+funfacts:
+  enable: true
+  bg_image: "images/backgrounds/bg-white-wall.jpg"
+  bg_image_webp: "images/backgrounds/bg-white-wall.webp"
+  counter_item:
+    # counter item loop
+    - title: "Years of Experience"
+      icon: "fa-solid fa-clock fa-2xl" # themify icon pack : https://themify.me/themify-icons
+      count: "3"
+
+    # counter item loop
+    - title: "Happy Clients"
+      icon: "fa-solid fa-users fa-2xl" # themify icon pack : https://themify.me/themify-icons
+      count: "35"
+
+    # counter item loop
+    - title: "Cases restored"
+      icon: "fa-solid fa-users fa-2xl" # themify icon pack : https://themify.me/themify-icons
+      count: "158"

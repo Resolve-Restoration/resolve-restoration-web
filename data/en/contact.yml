@@ -1,0 +1,27 @@
+############################## Contact #############################
+contact:
+  enable: true
+  title: Contact Us
+  subtitle: Our office
+  content: We welcome you to our office! Our office is open from 9 AM to 5 PM, monday through friday.
+
+  # Contact details
+  contact_list:
+    - icon: ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      info: "Unit 110 - 9339 200 A Street Langley, BC"
+
+    - icon: ti-mobile # themify icon pack : https://themify.me/themify-icons
+      info: "Phone: +1 604-368-6061"
+
+    - icon: ti-email # themify icon pack : https://themify.me/themify-icons
+      info: "Email: info@resolverestoration.com"
+
+  # Contact form
+  contact_form:
+    enable: true
+    form_action: "#" #contact form works with https://formspree.io
+    name: "Your Name"
+    email: "Your Email"
+    subject: "Subject"
+    message: "Message"
+    submit: "Submit"

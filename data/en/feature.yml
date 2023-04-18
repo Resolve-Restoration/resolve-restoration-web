@@ -1,0 +1,17 @@
+############################# feature ###################################
+feature:
+  enable: true
+  image: images/about/worker.jpg
+  image_webp:
+  title: We resolve your restoration problems.
+  content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
+  feature_item:
+    # feature item loop
+    - title: We understand strata
+      icon: fa-solid fa-building # themify icon pack : https://themify.me/themify-icons
+      content: We understand the protection of your investment, and the care needed to improve it even better or recover it from an emergency, we get you.
+
+      # feature item loop
+    - title: Our Emergency line is open 24/7
+      icon: fa-solid fa-phone-volume # themify icon pack : https://themify.me/themify-icons
+      content: Our emergency line can be contacted at any time, please call us inmediately if needed [604-368-6061](tel:6043686061)

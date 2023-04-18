@@ -1,0 +1,16 @@
+############################# About ###################################
+about:
+  enable: true
+  title: About Us
+  about_item:
+    - icon: fa-solid fa-stopwatch # themify icon pack : https://themify.me/themify-icons
+      title: We're Fast
+      content: When is about an emergency, we are ready for any type of problem to solve, our services stand 24/7 no matter what, you call we will be there.
+
+    - icon: fa-solid fa-screwdriver-wrench # themify icon pack : https://themify.me/themify-icons
+      title: We're Professional
+      content: We have 10 years of experience with strata and 3 years in restorations.
+
+    - icon: fa-brands fa-canadian-maple-leaf # themify icon pack : https://themify.me/themify-icons
+      title: We're Everywhere
+      content: We cover the whole Vancouver area, having happy customers all over Surrey, Langley, Burnaby, Coquitlam, Richmond, Delta, Downtown and more.
