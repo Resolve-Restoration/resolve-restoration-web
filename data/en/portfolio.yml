@@ -4,23 +4,23 @@ portfolio:
   title: Our Clients
   portfolio_item:
     # portfolio item loop
-    - name: Modello
+    - name:
       image: images/portfolio/modello-metrotown-tower.jpg
-      categories: ["Metrotown"]
+      categories: ["Residential Buildings"]
       # content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
       # link: "https://themefisher.com"
 
     # portfolio item loop
-    - name: Prime
+    - name:
       image: images/portfolio/prime-surrey.jpg
-      categories: ["Surrey"]
+      categories: ["Residential Buildings"]
       # content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
       # link: ""
 
     # portfolio item loop
-    - name: Georgetown
+    - name:
       image: images/portfolio/georgetown.jpg
-      categories: ["Surrey"]
+      categories: ["Residential Buildings"]
       # content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
       # link: "#"
 

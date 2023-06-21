@@ -65,7 +65,7 @@ weight = 4
 
 [[Languages.en.menu.main]]
 name = "Emergency Line: 604-368-6061"
-url = "tel:6043686061"
+url = "#"
 weight = 5
 
 

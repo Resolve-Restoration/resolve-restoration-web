@@ -5,8 +5,8 @@ banner:
   bg_image: "images/backgrounds/hero-area.jpg"
   icon: "" # themify icon pack : https://themify.me/themify-icons
   title: "Resolve Restoration"
-  content: "The most efficient restoration company in Vancouver. Consider it resolved!"
+  content: "Call it resolved!"
   button:
     enable: true
-    label: "Resolve now"
+    label: "In an emergency? Have it resolve now"
     link: "#services"

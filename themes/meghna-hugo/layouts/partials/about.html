@@ -1,39 +1,50 @@
-{{ $data := index site.Data site.Language.Lang }}
-
-{{ if $data.about.about.enable }}
-{{ with $data.about.about }}
-{{"<!-- Start About Section -->" | safeHTML}}
+{{ $data := index site.Data site.Language.Lang }} {{ if $data.about.about.enable
+}} {{ with $data.about.about }} {{"<!-- Start About Section -->" | safeHTML}}
 <section class="bg-one about section" id="about">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-12">
-				{{"<!-- section title -->" | safeHTML}}
-				<div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-					<h2> {{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
-						{{ with .title }} {{ index (split . " ") 1 | safeHTML }} {{ end }} </span></h2>
-					<div class="border-meghna"></div>
-				</div>
-			</div>
-			{{"<!-- /section title -->" | safeHTML}}
-
-			{{ range .about_item }}
-			{{"<!-- About item -->" | safeHTML}}
-			<div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">
-				<div class="block">
-					<div class="icon-box">
-						{{with .icon}}<i class="{{ . }}"></i>{{ end }}
-					</div>
-					{{"<!-- Express About Yourself -->" | safeHTML}}
-					<div class="content text-center">
-						<h3>{{ .title }}</h3>
-						<p>{{ .content | markdownify }}</p>
-					</div>
-				</div>
-			</div>
-			{{ end }}
-		</div>
-	</div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        {{"<!-- section title -->" | safeHTML}}
+        <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+          <h2>
+            {{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end
+            }}<span class="color">
+              {{ with .title }} {{ index (split . " ") 1 | safeHTML }} {{ end }}
+            </span>
+          </h2>
+          <div class="border-meghna"></div>
+        </div>
+      </div>
+      {{"<!-- /section title -->" | safeHTML}}
+      <p style="font-size: large; text-align: justify">
+        Resolve Restoration gets it Resolved. We focus in assist you at every
+        level from the emergency response, mitigating and aftermath repair
+        processes. We pride ourselves in responding to our clients the way we
+        would if these were our very own homes. We provide services for both
+        Strata and Commercial properties in the Lower Mainland. During emergency
+        situations time is of the essence and we focus on mitigating damages as
+        quickly as possible. Counting with our team means you do not need to
+        worry about keeping every aspect about the emergency process. Our team
+        is well adverse in the processes during and the aftermath of a loss.
+        Working with industry professionals to accommodate your needs will
+        ensure your experience will be as smooth and straightforward as it can
+        ever be.
+      </p>
+      {{ range .about_item }} {{"<!-- About item -->" | safeHTML}}
+      <div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">
+        <div class="block">
+          <div class="icon-box">
+            {{with .icon}}<i class="{{ . }}"></i>{{ end }}
+          </div>
+          {{"<!-- Express About Yourself -->" | safeHTML}}
+          <div class="content text-center">
+            <h3>{{ .title }}</h3>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
 </section>
-{{"<!-- /about -->" | safeHTML}}
-{{ end }}
-{{ end }}
+{{"<!-- /about -->" | safeHTML}} {{ end }} {{ end }}

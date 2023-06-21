@@ -7,6 +7,25 @@ Version: 1.3
 Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive, html5, css3
 */
 /*=== MEDIA QUERY ===*/
+
+@font-face {
+  font-family: "Gotham Black";
+  src: url("../fonts/Gotham-Black.otf");
+}
+
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("../fonts/Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: "Gotham Light";
+  src: url("../fonts/Gotham-Light.otf");
+}
+
+body {
+}
+
 html {
   background-color: #702b2e;
   color: #ffffff;
@@ -14,7 +33,7 @@ html {
 
 body {
   background-color: #702b2e;
-  font-family: "Anaheim", sans-serif;
+  font-family: "Gotham Black", sans-serif;
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
@@ -26,12 +45,13 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Gotham Bold", sans-serif;
   color: #fff;
 }
 
 p {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Gotham Light", sans-serif;
+  text-align: justify;
 }
 
 [scroll-behavior=smooth] {
