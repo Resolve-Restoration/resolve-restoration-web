@@ -7,7 +7,7 @@
           class="lozad"
           data-src="{{ site.Params.logo | absURL }}"
           alt="{{ .Site.Title }}"
-          height="42"
+          height="56"
         />
         {{ else }} {{ site.Title }} {{ end }}
       </a>
@@ -30,8 +30,8 @@
         <ul class="navbar-nav ml-auto">
           <!-- menu active -->
           {{ $currentPage := . }} {{ range site.Menus.main }} {{ $menuURL :=
-          .URL | absLangURL }} {{ $pageURL:= $currentPage.Permalink | absLangURL
-          }} {{ $active := eq $menuURL $pageURL }} {{ if .HasChildren }}
+          .URL | safeURL }} {{ $pageURL:= $currentPage.Permalink | safeURL }} {{
+          $active := eq $menuURL $pageURL }} {{ if .HasChildren }}
           <li style="color: #702b2e" class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -43,18 +43,21 @@
             >
               {{ .Name }}
             </a>
+
             <div style="color: #702b2e" class="dropdown-menu">
-              {{ range .Children }} {{ $childURL := .URL | absLangURL }} {{
-              $active := eq $childURL $pageURL }}
+              {{ range .Children }} {{ $childURL := .URL | safeURL }} {{ $active
+              := eq $childURL $pageURL }}
               <a
                 class="dropdown-item"
                 {{if
                 findRE
-                `^http`
-                .URL}}target="_blank"
+                `^tel`
+                .URL
+                |
+                safeURL}}
                 rel="noopener"
                 {{end}}
-                href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}"
+                href="{{if findRE `^#` .URL | safeURL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL | safeURL}}{{else}}{{.URL | safeURL }}{{end}}"
                 >{{ .Name }}</a
               >
               {{ end }}
@@ -67,11 +70,11 @@
               class="nav-link"
               {{if
               findRE
-              `^http`
+              `^tel`
               .URL}}target="_blank"
               rel="noopener"
               {{end}}
-              href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}"
+              href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | safeURL}}{{end}}"
               >{{.Name}}</a
             >
           </li>

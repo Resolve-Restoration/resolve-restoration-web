@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://crazyc4t.github.io/resolve-restoration/"
+baseURL = "https://resolverestoration.com"
 title = "Resolve Restoration"
 theme = "meghna-hugo"
 # post pagination
@@ -12,7 +12,7 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 disableLanguages = ["fr"]
 
 ############################# Plugins ##########################
-# css plugins
+# css plugins.
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -65,14 +65,14 @@ weight = 4
 
 [[Languages.en.menu.main]]
 name = "Emergency Line: 604-368-6061"
-url = "#"
+url = "tel:6043686061"
 weight = 5
 
 
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = "images/resolve-restoration.jpg"
 # Meta data
 description = "Resolve Restoration Canada"
 author = "Resolve Restoration"
