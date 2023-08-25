@@ -16,7 +16,7 @@ service:
     # service item loop
     - name: Mold Remediation
       icon: fa-solid fa-virus # themify icon pack : https://themify.me/themify-icons
-      content: Could be a leak that wasn't fixed by us, giving excess of moisture creating mold, affecting your health, here you can consider resolved with us.
+      content: Could be a leak that wasn't fixed by us, giving excess of moisture creating mold affecting your health, here you can consider resolved with us sanitizing the area cleaner than it was.
 
     # service item loop
     - name: Vandalism
@@ -26,7 +26,7 @@ service:
     # service item loop
     - name: Waste Clean Up
       icon: fa-solid fa-trash-can # themify icon pack : https://themify.me/themify-icons
-      content: We do the heavy lifting for you when cleaning, disposing and recycling waste of any type of building, being on time, leaving everything as it was.
+      content: We do the heavy lifting for you when cleaning, disposing and recycling waste of any type of building, being on time, leaving everything as it was, leave it to us and consider it resolved.
 
     # service item loop
     - name: Leak Investigation

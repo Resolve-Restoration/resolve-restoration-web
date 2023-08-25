@@ -69,7 +69,6 @@ url = "tel:6043686061"
 weight = 5
 
 
-
 ############################# Default Parameters ##########################
 [params]
 logo = "images/resolve-restoration.jpg"
@@ -112,6 +111,11 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 copyright = "Copyright &copy; 2023 Resolve Restoration Canada"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 ################################ France Language ########################
 [Languages.fr]

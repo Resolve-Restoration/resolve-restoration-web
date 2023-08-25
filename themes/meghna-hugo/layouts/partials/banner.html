@@ -36,7 +36,7 @@ $data.banner.banner.enable }} {{ with $data.banner.banner }} {{"<!-- Welcome Sli
     {{ end }} {{/*
     <h1>{{ .title | markdownify }}</h1>
     */}}
-    <h2 style="text-align: center">{{ .content | markdownify }}</h2>
+    <h2 style="text-align: center"><b>{{ .content | markdownify }}</b></h2>
     {{ if .button.enable }} {{ with .button }}
 
     <a href="{{ .link }}" class="btn btn-transparent page-scroll"
