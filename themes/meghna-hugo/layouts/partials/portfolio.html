@@ -19,6 +19,8 @@ $data.portfolio.portfolio.enable }} {{ with $data.portfolio.portfolio }} {{"<!--
         {{"<!-- /section title -->" | safeHTML}}
       </div>
     </div>
+    {{/* You have a static set of images, work around with CSS to create the
+    "Mosaic" */}}
     <div class="row">
       <div class="col-lg-12">
         <div
@@ -55,13 +57,14 @@ $data.portfolio.portfolio.enable }} {{ with $data.portfolio.portfolio }} {{"<!--
         class="col-lg-4 col-md-6 shuffle-item"
         data-groups='[{{range $index, $element:= .categories }}{{if ne $index 0}},{{end}}"{{. | urlize}}"{{ end }}]'
       >
-        <div class="portfolio-block mb-4">
+        <div class="mb-4">
           <img
             class="img-fluid"
             src="{{ .image_webp | absURL }}"
             onerror="this.onerror=null;this.src='{{ .image | absURL }}'"
             alt="{{ .name }}"
           />
+          {{/*
           <div class="caption">
             <a
               class="search-icon image-popup"
@@ -78,6 +81,7 @@ $data.portfolio.portfolio.enable }} {{ with $data.portfolio.portfolio }} {{"<!--
             </h4>
             <p>{{ .content | markdownify }}</p>
           </div>
+          */}}
         </div>
       </div>
       {{ end }}

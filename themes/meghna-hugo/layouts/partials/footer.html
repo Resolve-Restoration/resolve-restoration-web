@@ -14,17 +14,27 @@
           </ul>
         </div>
 
-        {{"<!-- copyright -->" | safeHTML}}
-        <div class="copyright text-center">
-          <a href="{{ site.Home.Permalink }}">
-            <img
-              src="{{ site.Params.logo | absURL }}"
-              alt="{{ site.Title }}"
-              height="75"
-            />
-          </a>
-          <br />
-          <p>{{ site.Params.copyright | markdownify }}</p>
+          <div style="color: black; text-align: center">
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+              ><img
+                alt="Creative Commons License"
+                style="border-width: 0"
+                src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a
+            ><br />
+            This work is licensed under a
+            <a
+              rel="license"
+              style="color: blue"
+              href="http://creativecommons.org/licenses/by/4.0/"
+            >
+              Creative Commons Attribution 4.0 International License</a
+            >.
+          </div>
+          {{/*
+          <p style="color: black; text-align: center">
+            */}} {{/* {{ site.Params.copyright | markdownify }} */}} {{/*
+          </p>
+          */}}
         </div>
       </div>
     </div>

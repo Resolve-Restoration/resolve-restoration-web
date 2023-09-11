@@ -2,6 +2,7 @@
 baseURL = "https://resolverestoration.com"
 title = "Resolve Restoration"
 theme = "meghna-hugo"
+
 # post pagination
 paginate = "6"
 # post excerpt
@@ -54,19 +55,24 @@ url = "#services"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "Portfolio"
+name = "Our Clients"
 url = "#portfolio"
 weight = 3
 
 [[Languages.en.menu.main]]
-name = "Contact"
+name = "Contact Us"
 url = "#contact"
 weight = 4
 
 [[Languages.en.menu.main]]
+name = "Get a Quote"
+url = "https://forms.gle/wkwhCt3TsKPKBTfs8"
+weight = 5
+
+[[Languages.en.menu.main]]
 name = "Emergency Line: 604-368-6061"
 url = "tel:6043686061"
-weight = 5
+weight = 6
 
 
 ############################# Default Parameters ##########################
@@ -79,7 +85,7 @@ author = "Resolve Restoration"
 google_analytics_id = "" # Your ID
 # post share
 post_share = true
-
+copyright = "Copyright &copy; 2023"
 # preloader
 [params.preloader]
 enable = false
