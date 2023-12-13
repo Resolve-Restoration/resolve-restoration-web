@@ -33,9 +33,8 @@ $data.banner.banner.enable }} {{ with $data.banner.banner }} {{"<!-- Welcome Sli
     <div class="video-button">
       <i class="{{ .icon }}"></i>
     </div>
-    {{ end }} {{/*
-    <h1>{{ .title | markdownify }}</h1>
-    */}}
+    {{ end }}
+    <h1 style="display: none">{{ .title | markdownify }}</h1>
     <h2 style="text-align: center"><b>{{ .content | markdownify }}</b></h2>
     {{ if .button.enable }} {{ with .button }}
 

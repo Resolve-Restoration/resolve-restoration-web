@@ -21,8 +21,6 @@ link = "plugins/fontawesome/all.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
 [[params.plugins.css]]
-link = "plugins/magnific-popup/magnific-popup.css"
-[[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
@@ -80,12 +78,14 @@ weight = 6
 logo = "images/resolve-restoration.jpg"
 # Meta data
 description = "Resolve Restoration Canada"
-author = "Resolve Restoration"
 # Google Analytics
-google_analytics_id = "" # Your ID
+# google_analytics_id = "" # Your ID
 # post share
 post_share = true
 copyright = "Copyright &copy; 2023"
+[params.author]
+author = "Resolve Restoration"
+email = "said@centrumconcierge.com"
 # preloader
 [params.preloader]
 enable = false
@@ -122,12 +122,3 @@ copyright = "Copyright &copy; 2023 Resolve Restoration Canada"
 [markup.goldmark]
 [markup.goldmark.renderer]
 unsafe = true
-
-################################ France Language ########################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-home = "Accueil"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
