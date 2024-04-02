@@ -24,24 +24,79 @@ portfolio:
       # content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
       # link: "#"
 
-    # portfolio item loop
-    - name:
-      image: images/portfolio/building4.jpg
+    # # portfolio item loop
+    - name: Tag Design
+      image: images/portfolio/building9.jpg
+      #   image_webp: images/portfolio/portfolio-2.webp
       categories: ["Residential"]
-      # content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      # link: "#"
+    #   content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    #   link: "#"
+    # - name:
+    #   image: images/portfolio/building10.jpg
+    #   #   image_webp: images/portfolio/portfolio-2.webp
+    #   categories: ["Residential"]
+
+    - name:
+      image: images/portfolio/building11.jpg
+      #   image_webp: images/portfolio/portfolio-2.webp
+      categories: ["Residential"]
+
+    - name:
+      image: images/portfolio/building12.jpg
+      #   image_webp: images/portfolio/portfolio-2.webp
+      categories: ["Residential"]
+
+    # portfolio item loop
+    # - name:
+    #   image: images/portfolio/building4.jpg
+    #   categories: ["Residential"]
+    #   # content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    #   # link: "#"
+
+    # # # portfolio item loop
+    # - name:
+    #   image: images/portfolio/building5.jpg
+    #   categories: ["Residential"]
+
+    # # # portfolio item loop
+    # - name:
+    #   image: images/portfolio/building6.jpg
+    #   categories: ["Residential"]
+    # #   content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    # #   link: "#"
+
+    # # portfolio item loop
+    - name:
+      image: images/portfolio/building7.jpg
+      #   image_webp: images/portfolio/portfolio-7.webp
+      categories: ["Residential"]
+    #   content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    #   link: "#"
+    - name:
+      image: images/portfolio/building6.jpg
+      categories: ["Residential"]
 
     # # portfolio item loop
     - name:
       image: images/portfolio/building8.jpg
+      #   image_webp: images/portfolio/portfolio-8.webp
       categories: ["Residential"]
-
-    # # portfolio item loop
-    - name: 
-      image: images/portfolio/building9.jpg
-      categories: ["Residential"]
-
+    #   content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    #   link: "#"
+    # # # portfolio item loop
+    # portfolio item loop
     - name:
       image: images/portfolio/building11.jpg
       categories: ["Residential"]
 
+    # # portfolio item loop
+    - name:
+      image: images/portfolio/building5.jpg
+      categories: ["Residential"]
+
+    # # portfolio item loop
+    - name:
+      image: images/portfolio/building4.jpg
+      categories: ["Residential"]
+    #   content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    #   link: "#"
