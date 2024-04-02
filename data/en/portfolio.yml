@@ -44,10 +44,10 @@ portfolio:
     #   link: "#"
 
     # # portfolio item loop
-    - name:
-      image: images/portfolio/building7.jpg
-      #   image_webp: images/portfolio/portfolio-7.webp
-      categories: ["Residential"]
+    # - name:
+    #   image: images/portfolio/building7.jpg
+    #   #   image_webp: images/portfolio/portfolio-7.webp
+    #   categories: ["Residential"]
     #   content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     #   link: "#"
 
@@ -66,8 +66,8 @@ portfolio:
       categories: ["Residential"]
     #   content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     #   link: "#"
-    - name:
-      image: images/portfolio/building10.jpg
+    # - name:
+      # image: images/portfolio/building10.jpg
       #   image_webp: images/portfolio/portfolio-2.webp
       categories: ["Residential"]
 

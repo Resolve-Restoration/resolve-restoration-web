@@ -6,29 +6,29 @@ service:
     # service item loop
     - name: Fire Damage
       icon: fa-solid fa-fire # themify icon pack : https://themify.me/themify-icons
-      content: Right after the smoke clears out, we are the ones who are next to restore your possesions, giving excellent emergency response for your shelter, leaving it just as it was before.
+      content: Right after the smoke clears out, we are the ones who are next to restore your possessions, providing excellent emergency response for your shelter, leaving it just as it was before.
 
     # service item loop
     - name: Water Damage
       icon: fa-solid fa-house-flood-water # themify icon pack : https://themify.me/themify-icons
-      content: Whether it would be flooding, a broken pipe, water intrusion, we are here for it, with our experience with strata we know how important is to mitigate the problem quickly.
+      content: Whether it is flooding, a broken pipe, or water intrusion, we are here for it. With our experience with strata, we know how important it is to mitigate the problem quickly.
 
     # service item loop
     - name: Mold Remediation
       icon: fa-solid fa-virus # themify icon pack : https://themify.me/themify-icons
-      content: Could be a leak that wasn't fixed by us, giving excess of moisture creating mold affecting your health, here you can consider resolved with us sanitizing the area cleaner than it was.
+      content: There could be a leak that wasn't fixed by us, giving you excess moisture and creating mold that affects your health. You can consider it resolved with us sanitizing the area cleaner than it was.
 
     # service item loop
     - name: Vandalism
       icon: fa-solid fa-skull # themify icon pack : https://themify.me/themify-icons
-      content: Inmediate action is required, and that's why we are here, to restore the broken damage, remove any debris, clean throughtly residues and leave it just as it was.
+      content: "Immediate action is required, and that's why we are here: to restore the damage, remove any debris, clean up any residues, and leave it just as it was."
 
     # service item loop
     - name: Waste Clean Up
       icon: fa-solid fa-trash-can # themify icon pack : https://themify.me/themify-icons
-      content: We do the heavy lifting for you when cleaning, disposing and recycling waste of any type, being on time, leaving everything as it was, leave it to us and consider it resolved.
+      content: We do the heavy lifting for you when cleaning, disposing, and recycling waste of any type, being on time, leaving everything as it was, leaving it to us, and considering it resolved.
 
     # service item loop
     - name: Leak Investigation
       icon: fa-solid fa-faucet-drip # themify icon pack : https://themify.me/themify-icons
-      content: As soon as you notice the elevated price on your water bill, from toilets to underground pipes and behind walls, we are ready to detect and restore the leak mitigating damages.
+      content: As soon as you notice the elevated price on your water bill, from toilets to underground pipes and behind walls, we are ready to detect and restore the leak, mitigating damages.

@@ -3,7 +3,7 @@ contact:
   enable: true
   title: Contact Us
   subtitle: Our office
-  content: We welcome you to our office! Our office is open from 9 AM to 5 PM, monday through friday.
+  content: We welcome you to our office! Our office is open from 9 AM to 5 PM, Monday through Friday.
 
   # Contact details
   contact_list:

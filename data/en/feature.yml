@@ -4,12 +4,12 @@ feature:
   image: images/about/worker.jpg
   image_webp:
   title: Resolve Get it Resolved.
-  content: A loss can happen at any given time, this is when Resolve would resolves any situation. We dispatch the most suitable staff needed for the right situation, available 24/7.
+  content: A loss can happen at any given time; this is when Resolve resolves any situation. We dispatch the most suitable staff needed for the right situation and are available 24/7.
   feature_item:
     # feature item loop
     - title: We understand strata
       icon: fa-solid fa-building # themify icon pack : https://themify.me/themify-icons
-      content: At the Strata level, we step into each property in a collaborative approach. We understand strata very well and it is important for us  keep a flexible approach when stepping into each residents homes, common areas during the findings of water damages and such. Understanding the various layers of strata which allows us to be accountable to all owners, Property Manager representatives, Strata Councils and Developers.
+      content: At the strata level, we step into each property with a collaborative approach. We understand strata very well, and it is important for us to keep a flexible approach when stepping into each resident's homes or common areas during the findings of water damages and such. Understanding the various layers of strata allows us to be accountable to all owners, property manager representatives, strata councils, and developers.
 
       # feature item loop
     - title: Our Emergency line is open 24/7
