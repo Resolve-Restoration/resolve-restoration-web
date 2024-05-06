@@ -22,14 +22,10 @@ link = "plugins/fontawesome/all.css"
 link = "plugins/themify-icons/themify-icons.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
-[[params.plugins.css]]
-link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
 
 # js plugins
 [[params.plugins.js]]
 link = "plugins/jquery/jquery.min.js"
-[[params.plugins.js]]
-link = "plugins/fontawesome/all.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
@@ -40,6 +36,8 @@ link = "plugins/shuffle/shuffle.min.js"
 link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 link = "plugins/lazy-load/lozad.min.js"
+[[params.plugins.js]]
+link = "plugins/fontawesome/all.js"
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
@@ -115,7 +113,6 @@ languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
-home = "Home"
 copyright = "Copyright &copy; 2023 Resolve Restoration Canada"
 
 [markup]

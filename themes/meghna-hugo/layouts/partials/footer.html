@@ -25,10 +25,7 @@
     </div>
   </div>
 </footer>
-{{"<!-- /footer -->" | safeHTML}} {{ "<!-- Google Map API -->" | safeHTML }} {{
-if site.Params.map.enable }}
-<script src="{{ site.Params.map.gmap_api | safeURL }}"></script>
-{{ end }} {{ "<!-- JS Plugins -->" | safeHTML }} {{ range
+{{"<!-- /footer -->" | safeHTML}} {{ "<!-- JS Plugins -->" | safeHTML }} {{ range
 site.Params.plugins.js}}
 <script src="{{ .link | absURL }}"></script>
 {{ end }} {{ "<!-- Main Script -->" | safeHTML }} {{ $script := resources.Get
