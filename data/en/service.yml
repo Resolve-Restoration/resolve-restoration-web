@@ -24,9 +24,9 @@ service:
       content: "Immediate action is required, and that's why we are here: to restore the damage, remove any debris, clean up any residues and leave it just as it was, like nothing ever happened."
 
     # service item loop
-    - name: Waste Clean Up
-      icon: fa-solid fa-trash-can
-      content: We do the heavy lifting for you when cleaning, disposing, and recycling waste of any type, being on time, leaving everything as it was, leaving it to us, and considering it resolved.
+    - name: Contents Packaging and Assessment
+      icon: fa-solid fa-box
+      content: Contents evaluation and listing services, packing and inventory, moving and sorting, complete contents removal and temporary storage services.
 
     # service item loop
     - name: Leak Investigation
