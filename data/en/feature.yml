@@ -7,11 +7,19 @@ feature:
   content: A loss can happen at any given time; this is when Resolve resolves any situation. We dispatch the most suitable staff needed for the right situation and are available 24/7.
   feature_item:
     # feature item loop
-    - title: We understand strata
-      icon: fa-solid fa-building # themify icon pack : https://themify.me/themify-icons
-      content: At the strata level, we step into each property with a collaborative approach. We understand strata very well, and it is important for us to keep a flexible approach when stepping into each resident's homes or common areas during the findings of water damages and such. Understanding the various layers of strata allows us to be accountable to all owners, property manager representatives, strata councils, and developers.
 
-      # feature item loop
+    - title: We understand strata
+      icon: fa-solid fa-building
+      content: At the strata level, we step into each property with a collaborative approach. We understand strata very well, Understanding the various layers of strata allows us to be accountable to all owners, property manager representatives, strata councils, and developers.
+
+    - title: Our approach
+      icon: fa-solid fa-gear
+      content: It is important for us to keep a flexible approach when stepping into each resident's homes or common areas during the findings of damages in order to protect the privacy and comfort of the residents.
+
+    - title: Our Environment
+      icon: fa-solid fa-clock
+      content: Working in a fast-paced environment by nature, we train our staff to conduct themselves in a priority manner and address emergencies while attending to immediate owner and tenant concerns.
+
     - title: Our Emergency line is open 24/7
-      icon: fa-solid fa-phone-volume # themify icon pack : https://themify.me/themify-icons
-      content: Our emergency line can be contacted at any time [604-368-6061](tel:6043686061)
+      icon: fa-solid fa-phone-volume
+      content: Our emergency line can be contacted at any time [604-368-6061](tel:6043686061) for any type of emergency that requires getting it resolved.

@@ -16,7 +16,7 @@ $data.banner.banner.enable }} {{ with $data.banner.banner }} {{"<!-- Welcome Sli
     autoplay
     muted
   >
-    <source src="background.mp4" type="video/mp4" />
+    <source src="video-background-resolve.mp4" type="video/mp4" />
   </video>
   <div class="video-logo">
     <img
@@ -38,9 +38,10 @@ $data.banner.banner.enable }} {{ with $data.banner.banner }} {{"<!-- Welcome Sli
     <h2 style="text-align: center"><b>{{ .content | markdownify }}</b></h2>
     {{ if .button.enable }} {{ with .button }}
 
-    <a href="{{ .link }}" class="btn btn-transparent page-scroll"
+    <a href="{{ .link | safeURL}}" class="btn btn-transparent page-scroll"
       >{{ .label }}</a
     >
+
     {{ end }} {{ end }}
   </div>
 </section>

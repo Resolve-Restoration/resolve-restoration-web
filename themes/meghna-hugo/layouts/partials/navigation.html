@@ -50,14 +50,6 @@
               := eq $childURL $pageURL }}
               <a
                 class="dropdown-item"
-                {{if
-                findRE
-                `^tel`
-                .URL
-                |
-                safeURL}}
-                rel="noopener"
-                {{end}}
                 href="{{if findRE `^#` .URL | safeURL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL | safeURL}}{{else}}{{.URL | safeURL }}{{end}}"
                 >{{ .Name }}</a
               >
@@ -69,12 +61,6 @@
             <a
               style="color: #702b2e; font-size: large"
               class="nav-link"
-              {{if
-              findRE
-              `^tel`
-              .URL}}target="_blank"
-              rel="noopener"
-              {{end}}
               href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | safeURL}}{{end}}"
               ><b>{{.Name}}</b></a
             >

@@ -3,47 +3,48 @@ service:
   enable: true
   title: Our Services
   service_item:
-    # service item loop
     - name: Fire Damage
-      icon: fa-solid fa-fire # themify icon pack : https://themify.me/themify-icons
-      content: Right after the smoke clears out, we are the ones who are next to restore your possessions, providing excellent emergency response for your shelter, leaving it just as it was before.
+      icon: fa-solid fa-fire
+      content: Right after the smoke clears out, we are the ones who are next to restore your possessions, removing smoke soot and corrosive chemicals from every surface, making sure to leave it as it was.
+      img: images/services/fire-damage.jpg
 
     # service item loop
     - name: Water Damage
-      icon: fa-solid fa-house-flood-water # themify icon pack : https://themify.me/themify-icons
-      content: Whether it is flooding, a broken pipe, or water intrusion, we are here for it. With our experience with strata, we know how important it is to mitigate the problem quickly.
+      icon: fa-solid fa-house-flood-water
+      content: Whether it is a broken pipe, faulty appliances or water intrusion, we are here for it. With our expertise on strata, we know how important it is to mitigate the problem quickly and consider it resolved.
+      img: images/services/water-damage.jpg
 
-    # service item loop
     - name: Mold Remediation
       icon: fa-solid fa-virus
-      content: There could be a leak that wasn't fixed by us, giving you excess moisture and creating mold that affects your health. You can consider it resolved with us sanitizing the area cleaner than it was.
+      content: Mould and Odor accumulated indoor and outdoor from all type of surfaces, affecting your health and the structure of your home. You can consider it resolved with us sanitizing the area and leaving it healthy.
+      img: images/services/mould-remediation.jpg
 
-    # service item loop
     - name: Vandalism
       icon: fa-solid fa-skull
-      content: "Immediate action is required, and that's why we are here: to restore the damage, remove any debris, clean up any residues and leave it just as it was, like nothing ever happened."
+      content: "Immediate action is required after an incident that can cause significant damage over time and that's why we are here: to restore the damage, remove debris and clean it up. Leaving it resolved."
+      img: images/services/vandalism.jpg
 
-    # service item loop
     - name: Contents Packaging and Assessment
       icon: fa-solid fa-box
       content: Contents evaluation and listing services, packing and inventory, moving and sorting, complete contents removal and temporary storage services.
+      img: images/services/content-management.jpg
 
-    # service item loop
     - name: Leak Investigation
       icon: fa-solid fa-faucet-drip
-      content: As soon as you notice the elevated price on your water bill, from toilets to underground pipes and behind walls, we are ready to detect and restore the leak, mitigating damages.
+      content: As soon as you notice the elevated price on your water bill, from toilets to underground pipes and behind walls, we are ready to detect and restore the leak, mitigating damages and leaving it resolved.
+      img: images/services/leak-investigation.jpg
 
-    # - name: Asbestos Abatement
-    #   content: drywall , textured ceilings, vinyl sheet flooring , vinyl floor tile , room membrane
+    - name: Property Preventatives
+      icon: fa-solid fa-hand
+      content: "Installation of preventive measures from unexpected damage in residential and commercial areas: ballard, enclosures, curbs, cages, covers, line painting speed bumps and more."
+      img: images/services/preventatives.jpg
 
-    # - name: Mold Remediation
-    #   content: Indoors and outdoors from all surfaces, grow Opp remediation and decontamination , attic mold removal.
+    - name: Building Envelope Inspection and Repairs
+      icon: fa-solid fa-magnifying-glass
+      content: "We offer inspections for residential and commercial areas alongside repairs needed from the inspections: siding, fascia, gutters, hand rails, decks, windows and more."
+      img: images/services/inspection.jpg
 
-    # - name: Odor Removal
-    #   content: ozone and hydroxyl - removal of VOC's , food odors , fire or soot , cigarette / nicotine , body odors and pet odors
-
-    # - name: Mold inspections
-    #   content: residential / commercial - attic / non occupied / occupied spaces
-
-    # - name: Indoor air quality assessment
-    #   content: sick home healthy home assessments and reports
+    - name: Concrete Repairs and Replacement
+      icon: fa-solid fa-trowel
+      content: Quality work with concrete structures repairs and replacement. Spalling, deterioration, deficiencies and concrete injection repairs improving the appereance of your property leaving it resolved.
+      img: images/services/concrete.png

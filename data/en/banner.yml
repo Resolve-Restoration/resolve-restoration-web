@@ -8,5 +8,5 @@ banner:
   content: "Call it resolved!"
   button:
     enable: true
-    label: "In an emergency? Have it resolve now"
-    link: "#services"
+    label: "Emergency Call: (604) 368-6061"
+    link: "tel:6043686061"

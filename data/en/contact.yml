@@ -7,13 +7,13 @@ contact:
 
   # Contact details
   contact_list:
-    - icon: ti-location-pin # themify icon pack : https://themify.me/themify-icons
+    - icon: fa-solid fa-location-pin # themify icon pack : https://themify.me/themify-icons
       info: "Unit 110 - 9339 200 A Street Langley, BC"
 
-    - icon: ti-mobile # themify icon pack : https://themify.me/themify-icons
+    - icon: fa-solid fa-phone # themify icon pack : https://themify.me/themify-icons
       info: "Phone: +1 604-368-6061"
 
-    - icon: ti-email # themify icon pack : https://themify.me/themify-icons
+    - icon: fa-solid fa-envelope # themify icon pack : https://themify.me/themify-icons
       info: "Email: info@resolverestoration.com"
 
   # Contact form

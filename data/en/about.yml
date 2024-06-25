@@ -3,14 +3,14 @@ about:
   enable: true
   title: About Us
   about_item:
-    - icon: fa-solid fa-stopwatch # themify icon pack : https://themify.me/themify-icons
+    - icon: fa-solid fa-stopwatch
       title: We're Fast
-      content: In an emergency situation, responsiveness is crucial. Having crews around the clock means we will be able to attend to your call immediately.
+      content: In an emergency situation, time is of the essence and responsiveness is crucial. Having crews around the clock means we will be able to attend to your call immediately and able to dispatch crews your way faster than ever.
 
-    - icon: fa-solid fa-screwdriver-wrench # themify icon pack : https://themify.me/themify-icons
+    - icon: fa-solid fa-screwdriver-wrench
       title: We're Professional
-      content: Working in a fast-paced environment by nature, we train our staff to conduct themselves in a priority manner and address emergencies while attending to immediate owner and tenant concerns. We are professionals and make a big effort to keep our clients informed at all times. Emergency situations can be stressful, but you can trust our team to handle all aspects of the emergency in the most professional way.
+      content: We are professionals and make a big effort to keep our clients informed at all times. Emergency situations can be stressful, but you can trust our team to handle all aspects of the emergency in the most professional way.
 
-    - icon: fa-brands fa-canadian-maple-leaf # themify icon pack : https://themify.me/themify-icons
+    - icon: fa-brands fa-canadian-maple-leaf
       title: We're Everywhere
-      content: We service the full Lower Mainland. We strategically have centralized locations to better have access to our equipment and, therefore, better attend to your needs.
+      content: We service the full Lower Mainland. We strategically have centralized locations to have better and quick access to our equipment so our crews can be on the go and therefore, better attend to your needs.

@@ -19,6 +19,8 @@ html {
   background-color: #702b2e;
   color: #ffffff;
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -26,6 +28,8 @@ body {
   font-family: "Gotham Black", sans-serif;
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 h1,
@@ -41,7 +45,9 @@ h6 {
 
 p {
   font-family: "Gotham Light", sans-serif;
+  font-size: 18px;
   text-align: justify;
+  hyphens: auto;
 }
 
 [scroll-behavior=smooth] {
@@ -57,13 +63,13 @@ pre {
 ==================================================================*/
 ::-moz-selection {
   /* Code for Firefox */
-  color: #fff;
-  background: #1f3549;
+  background: #fff;
+  color: #702b2e;
 }
 
 ::selection {
-  color: #fff;
-  background: #1f3549;
+  background: #fff;
+  color: #702b2e;
 }
 
 hr {

@@ -46,9 +46,3 @@ Mold : Hazardous materials removal: speciality decontamination services, special
 Vandalism: Emergency board up, grafetti removal, We are available 24/7 for all emergency board up services including break in entrer, roof penetrations, and other security concerns.
 
 Investigation services: We specialize in building envelope investigation, water ingress, leak, indoor air quality and mold.
-
-
-
-service master
-
-phone number in front
