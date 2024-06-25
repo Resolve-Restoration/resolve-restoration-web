@@ -21,7 +21,10 @@ link = "plugins/fontawesome/all.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
 [[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
 link = "plugins/slick/slick.css"
+
 
 # js plugins
 [[params.plugins.js]]
@@ -83,7 +86,7 @@ post_share = true
 copyright = "Copyright &copy; 2023"
 [params.author]
 author = "Resolve Restoration"
-email = "said@centrumconcierge.com"
+email = "info@resolverestoration.com"
 # preloader
 [params.preloader]
 enable = false

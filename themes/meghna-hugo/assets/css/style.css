@@ -101,6 +101,14 @@ a:hover {
   color: #1f3549;
 }
 
+.google-reviews {
+  text-align: center;
+}
+
+.google-reviews a:hover {
+  color: #1f3549;
+}
+
 .video-logo {
   background: transparent;
   position: absolute;
@@ -180,7 +188,7 @@ a:hover {
 }
 
 .color {
-  color: #fff;
+  color: #1f3549;
 }
 
 .sub-title {
@@ -1162,7 +1170,7 @@ a:hover {
 }
 
 .client-comment p {
-  color: #afbac4;
+  color: whitesmoke;
   font-size: 18px;
 }
 

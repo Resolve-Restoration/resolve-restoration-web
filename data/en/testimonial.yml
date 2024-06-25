@@ -1,26 +1,28 @@
 ################################# Testimonial #########################
 testimonial:
-  enable: false
-  bg_image: images/backgrounds/bg-testimonial.jpg
-  bg_image_webp: images/backgrounds/bg-testimonial.webp
+  enable: true
+  bg_image: images/backgrounds/bg-white-wall.jpg
+  bg_image_webp: images/backgrounds/bg-white-wall.webp
   testimonial_item:
     # testimonial item loop
-    - name: Jonathon Andrew
-      image: images/client/client-1.jpg
-      image_webp: images/client/client-1.webp
-      date: Dec 26, 2018
-      content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    - name: Guido Ruiz
+      image: images/clients/guido-ruiz.jpg
+      date: June 3rd, 2024
+      content: We had an unexpected repair work needed at home and we are so glad we had Resolve Restoration taking care of the job. Sam and his team were very professional and thorough since the get go. They completed the work quickly and efficiently, with excellent communication throughout the process always addressing all my concerns to make sure we were happy. Their personal customer service made a stressful situation much easier to handle. Highly recommend them for any restoration needs!
 
     # testimonial item loop
-    - name: Mark Dinn
-      image: images/client/client-2.jpg
-      image_webp: images/client/client-2.webp
-      date: Dec 26, 2018
-      content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    - name: Mikhail Baiman
+      image: images/clients/mikhail.jpg
+      date: May 7th, 2024
+      content: Excellent service, prompt replies, and offered at a fair price.
 
     # testimonial item loop
-    - name: Lemos Kail
-      image: images/client/client-1.jpg
-      image_webp: images/client/client-1.webp
-      date: Dec 26, 2018
-      content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    - name: Katherine Evans
+      image: images/clients/katherine.jpg
+      date: May 14th, 2024
+      content: These guys were fast efficient so so so thorough. thank you sam and team!
+
+    - name: Eddie Xu
+      image: images/clients/eddie.jpg
+      date: May 14th, 2024
+      content: Professional job and great customer service.
