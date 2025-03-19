@@ -4,7 +4,8 @@ title = "Resolve Restoration"
 theme = "meghna-hugo"
 
 # post pagination
-paginate = "6"
+[Pagination]
+pagerSize = "6"
 # post excerpt
 summaryLength = "15"
 # disqus short name
@@ -69,10 +70,20 @@ url = "https://forms.gle/wkwhCt3TsKPKBTfs8"
 weight = 5
 
 [[Languages.en.menu.main]]
-name = "Emergency Line: 604-368-6061"
-url = "tel:6043686061"
+name = "Log In"
+url = "#"
 weight = 6
 
+[[Languages.en.menu.main]]
+name = "Claims"
+url = "https://claims.resolverestoration.ca/"
+parent = "Log In"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "Emergency Line: 604-368-6061"
+url = "tel:6043686061"
+weight = 7
 
 ############################# Default Parameters ##########################
 [params]

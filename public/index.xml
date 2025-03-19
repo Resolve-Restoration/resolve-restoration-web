@@ -9,21 +9,28 @@
     <managingEditor>info@resolverestoration.com</managingEditor>
     <webMaster>info@resolverestoration.com</webMaster>
     <copyright>Copyright &amp;copy; 2023 Resolve Restoration Canada</copyright>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Mar 2025 02:05:56 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Demo of 360 image viewing for clients</title>
+      <link>http://localhost:1313/quote/test/</link>
+      <pubDate>Wed, 19 Mar 2025 02:05:56 -0700</pubDate><author>info@resolverestoration.com</author>
+      <guid>http://localhost:1313/quote/test/</guid>
+      <description>&lt;h1 id=&#34;client-demo&#34;&gt;Client demo&lt;/h1&gt;&#xA;&lt;p&gt;We can include client logo, information and more at the title.&lt;/p&gt;&#xA;&lt;p&gt;Summary: Example demo to show exploit 360 images taken by Instax360 X4 to show with better quality the inside of an affected unit.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1st-image&#34;&gt;1st image&lt;/h2&gt;&#xA;&lt;p&gt;Description here, for example: Unit entrance.&lt;/p&gt;&#xA;&lt;div id=&#34;panorama-360-test.jpg&#34; style=&#34;width: 100%; height: 80vh&#34;&gt;&lt;/div&gt;&#xA;&#xA;&lt;script src=&#34;https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link&#xA;  rel=&#34;stylesheet&#34;&#xA;  href=&#34;https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css&#34;&#xA;/&gt;&#xA;&#xA;&lt;script&gt;&#xA;  pannellum.viewer(&#34;panorama-360-test.jpg&#34;, {&#xA;    type: &#34;equirectangular&#34;,&#xA;    panorama: &#34;/images/quote/360-test.jpg&#34;, &#xA;    autoLoad: true,&#xA;    showControls: true,&#xA;  });&#xA;&lt;/script&gt;&#xA;&#xA;&lt;h2 id=&#34;2nd-image&#34;&gt;2nd image&lt;/h2&gt;&#xA;&lt;p&gt;Description here, for example: Baseboard removal.&lt;/p&gt;&#xA;&lt;div id=&#34;panorama-360-test2.jpg&#34; style=&#34;width: 100%; height: 80vh&#34;&gt;&lt;/div&gt;&#xA;&#xA;&lt;script src=&#34;https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link&#xA;  rel=&#34;stylesheet&#34;&#xA;  href=&#34;https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css&#34;&#xA;/&gt;&#xA;&#xA;&lt;script&gt;&#xA;  pannellum.viewer(&#34;panorama-360-test2.jpg&#34;, {&#xA;    type: &#34;equirectangular&#34;,&#xA;    panorama: &#34;/images/quote/360-test2.jpg&#34;, &#xA;    autoLoad: true,&#xA;    showControls: true,&#xA;  });&#xA;&lt;/script&gt;&#xA;&#xA;&lt;h2 id=&#34;3rd-image&#34;&gt;3rd image&lt;/h2&gt;&#xA;&lt;p&gt;Description here, for example: Main room.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>John Doe</title>
       <link>http://localhost:1313/author/john-doe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>info@resolverestoration.com</author>
       <guid>http://localhost:1313/author/john-doe/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.&#xA;Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mark Dinn</title>
       <link>http://localhost:1313/author/mark-dinn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>info@resolverestoration.com</author>
       <guid>http://localhost:1313/author/mark-dinn/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.&#xA;Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
