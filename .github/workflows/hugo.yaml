@@ -1,12 +1,9 @@
 name: Deploy Hugo site to GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches:
       - main
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 permissions:
@@ -23,11 +20,10 @@ defaults:
     shell: bash
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.123.4 # Update to the latest stable version
+      HUGO_VERSION: 0.123.4 # Latest stable version
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -58,11 +54,10 @@ jobs:
           hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3 # Updated to v3
         with:
           path: ./public
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
@@ -75,10 +70,7 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
-          token: ${{ secrets.GH_TOKEN }} # Use PAT here for authentication
+          token: ${{ secrets.YOUR_PAT }} # Use PAT here for authentication
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GH_TOKEN }} # Make sure YOUR_PAT is the name of your secret
-          publish_dir: ./public
+        uses: peaceiris/acti
