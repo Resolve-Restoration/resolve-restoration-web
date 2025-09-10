@@ -3,12 +3,12 @@ contact:
   enable: true
   title: Contact Us
   subtitle: Our office
-  content: We welcome you to our office! Our office is open from 9 AM to 5 PM, Monday through Friday.
+  content: We welcome you to our office! Our office is open from 8:30 AM to 5 PM, Monday through Friday.
 
   # Contact details
   contact_list:
     - icon: fa-solid fa-location-pin # themify icon pack : https://themify.me/themify-icons
-      info: "Unit 110 - 9339 200 A Street Langley, BC"
+      info: "13479 King George Blvd, Surrey, BC V3T 2T8"
 
     - icon: fa-solid fa-phone # themify icon pack : https://themify.me/themify-icons
       info: "Phone: +1 604-368-6061"
